@@ -6,6 +6,7 @@ namespace CounterTest.TextProviders;
 public class MelioraTextProviderTest
 {
     [ Theory ]
+    [ InlineData( 0, "Nursing Meliora" ) ]
     [ InlineData( 1, "1" ) ]
     [ InlineData( 6, "Nursing" ) ]
     [ InlineData( 14, "Meliora" ) ]
@@ -15,7 +16,7 @@ public class MelioraTextProviderTest
     public void GetText_Successfully( int number, string expected )
     {
         // Arrange
-        IMultipleChecker multipleChecker = new MultipleChecker();
+        IMultipleChecker multipleChecker = new MultipleCheckerSupportingZero();
         ITextProvider<int> textProvider = new MelioraTextProvider( multipleChecker );
 
         // Act
