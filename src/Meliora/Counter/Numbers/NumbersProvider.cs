@@ -1,8 +1,8 @@
 ﻿namespace Counter.Numbers;
 
-public class NumberCounter : INumberCounter<int>
+public class NumbersProvider : INumbersProvider<int>
 {
-    public IEnumerable<int> Count( int start, int end )
+    public IEnumerable<int> GetRange( int start, int end )
     {
         var size = end - start;
         var count = Math.Abs( size ) + 1;

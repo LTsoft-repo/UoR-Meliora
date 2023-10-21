@@ -2,7 +2,7 @@
 
 namespace CounterTest.Numbers;
 
-public class NumberCounterTest
+public class NumbersProviderTest
 {
     [ Theory ]
     [ InlineData( 1, 1, new[] { 1 } ) ]
@@ -15,10 +15,10 @@ public class NumberCounterTest
     public void Count_StartNumberEndNumber_Successfully( int startNumber, int endNumber, int[] expected )
     {
         // Arrange
-        INumberCounter<int> counter = new NumberCounter();
+        INumbersProvider<int> counter = new NumbersProvider();
 
         // Act
-        var result = counter.Count( startNumber, endNumber );
+        var result = counter.GetRange( startNumber, endNumber );
         var resultArray = result.ToArray();
 
         // Assert
