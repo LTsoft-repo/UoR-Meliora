@@ -11,7 +11,7 @@ public class TextProviderTest
     public void GetText_Integer_Successfully( int number, string expected )
     {
         // Arrange
-        ITextProvider textProvider = new TextProviderInvariantCulture();
+        ITextProvider<int> textProvider = new TextProviderInvariantCulture<int>();
 
         // Act
         var result = textProvider.GetText( number );
@@ -27,7 +27,7 @@ public class TextProviderTest
     public void GetText_Double_Successfully( double number, string expected )
     {
         // Arrange
-        ITextProvider textProvider = new TextProviderInvariantCulture();
+        ITextProvider<double> textProvider = new TextProviderInvariantCulture<double>();
 
         // Act
         var result = textProvider.GetText( number );
@@ -40,13 +40,13 @@ public class TextProviderTest
     [ InlineData( "Hello", "Hello" ) ]
     [ InlineData( "", "" ) ]
     [ InlineData( null, "" ) ]
-    public void GetText_String_Successfully( string? number, string expected )
+    public void GetText_String_Successfully( string? text, string expected )
     {
         // Arrange
-        ITextProvider textProvider = new TextProviderInvariantCulture();
+        ITextProvider<string?> textProvider = new TextProviderInvariantCulture<string?>();
 
         // Act
-        var result = textProvider.GetText( number );
+        var result = textProvider.GetText( text );
 
         // Assert
         result.Should().Be( expected );
