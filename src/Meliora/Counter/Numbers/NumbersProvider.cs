@@ -2,7 +2,7 @@
 
 public class NumbersProvider : INumbersProvider<int>
 {
-    public IEnumerable<int> GetRange( int start, int end )
+    public virtual IEnumerable<int> GetRange( int start, int end )
     {
         var size = end - start;
         var count = Math.Abs( size ) + 1;
