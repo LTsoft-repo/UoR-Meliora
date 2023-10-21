@@ -1,4 +1,4 @@
-﻿namespace Counter.TextProviders;
+﻿namespace NumberUtils.TextProviders;
 
 public interface ITextProvider<T>
 {

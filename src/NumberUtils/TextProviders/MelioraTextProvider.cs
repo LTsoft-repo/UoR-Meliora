@@ -1,6 +1,6 @@
-﻿using Counter.Numbers;
+﻿using NumberUtils.Numbers;
 
-namespace Counter.TextProviders;
+namespace NumberUtils.TextProviders;
 
 public class MelioraTextProvider : TextProviderInvariantCulture<int>
 {

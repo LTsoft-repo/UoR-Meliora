@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Counter\Counter.csproj" />
+    <ProjectReference Include="..\NumberUtils\NumberUtils.csproj" />
   </ItemGroup>
 
 </Project>

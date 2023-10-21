@@ -1,6 +1,6 @@
-﻿using Counter.Numbers;
+﻿using NumberUtils.Numbers;
 
-namespace CounterTest.Numbers;
+namespace NumberUtilsTest.Numbers;
 
 public class NumbersProviderTest
 {
@@ -15,10 +15,10 @@ public class NumbersProviderTest
     public void Count_StartNumberEndNumber_Successfully( int startNumber, int endNumber, int[] expected )
     {
         // Arrange
-        INumbersProvider<int> counter = new NumbersProvider();
+        INumbersProvider<int> NumberUtils = new NumbersProvider();
 
         // Act
-        var result = counter.GetRange( startNumber, endNumber );
+        var result = NumberUtils.GetRange( startNumber, endNumber );
         var resultArray = result.ToArray();
 
         // Assert

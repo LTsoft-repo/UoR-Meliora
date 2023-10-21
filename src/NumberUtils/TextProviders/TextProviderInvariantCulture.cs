@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace Counter.TextProviders;
+namespace NumberUtils.TextProviders;
 
 public class TextProviderInvariantCulture<T> : ITextProvider<T>
 {

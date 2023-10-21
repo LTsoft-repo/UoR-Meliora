@@ -1,7 +1,7 @@
-﻿using Counter.Numbers;
-using Counter.TextProviders;
+﻿using NumberUtils.Numbers;
+using NumberUtils.TextProviders;
 
-namespace CounterTest.TextProviders;
+namespace NumberUtilsTest.TextProviders;
 
 public class MelioraTextProviderTest
 {

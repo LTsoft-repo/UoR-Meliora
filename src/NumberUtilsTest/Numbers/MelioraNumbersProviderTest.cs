@@ -1,7 +1,7 @@
-﻿using Counter.Numbers;
-using Counter.TextProviders;
+﻿using NumberUtils.Numbers;
+using NumberUtils.TextProviders;
 
-namespace CounterTest.Numbers;
+namespace NumberUtilsTest.Numbers;
 
 public class MelioraNumbersProviderTest
 {
@@ -18,10 +18,10 @@ public class MelioraNumbersProviderTest
         var numberProvider = new NumbersProvider();
         var multipleChecker = new MultipleCheckerSupportingZero();
         var textProvider = new MelioraTextProvider( multipleChecker );
-        INumbersProvider<string> counter = new MelioraNumbersProvider( numberProvider, textProvider );
+        INumbersProvider<string> NumberUtils = new MelioraNumbersProvider( numberProvider, textProvider );
 
         // Act
-        var result = counter.GetRange( startNumber, endNumber );
+        var result = NumberUtils.GetRange( startNumber, endNumber );
         var resultArray = result.ToArray();
 
         // Assert
@@ -64,10 +64,10 @@ public class MelioraNumbersProviderTest
         var numberProvider = new NumbersProvider();
         var multipleChecker = new MultipleCheckerSupportingZero();
         var textProvider = new MelioraTextProvider( multipleChecker );
-        INumbersProvider<string> counter = new MelioraNumbersProvider( numberProvider, textProvider );
+        INumbersProvider<string> NumberUtils = new MelioraNumbersProvider( numberProvider, textProvider );
 
         // Act
-        var result = counter.GetRange( 1, 50 );
+        var result = NumberUtils.GetRange( 1, 50 );
         var resultArray = result.ToArray();
 
         // Assert

@@ -1,4 +1,4 @@
-﻿namespace Counter.Numbers;
+﻿namespace NumberUtils.Numbers;
 
 public class NumbersProvider : INumbersProvider<int>
 {

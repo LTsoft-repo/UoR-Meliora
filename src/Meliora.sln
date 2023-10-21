@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Counter", "Counter\Counter.csproj", "{45D9BA58-692F-442E-82BA-F93DD0DD1B18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberUtils", "NumberUtils\NumberUtils.csproj", "{45D9BA58-692F-442E-82BA-F93DD0DD1B18}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10_Logic", "10_Logic", "{A8915B32-13AA-494C-8B68-C64DB7347BBA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20_Output", "20_Output", "{2FE43053-CDFF-4513-A52E-293AA141B31E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CounterTest", "CounterTest\CounterTest.csproj", "{7872011F-8D21-471D-AA0E-36035C673959}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberUtilsTest", "NumberUtilsTest\NumberUtilsTest.csproj", "{7872011F-8D21-471D-AA0E-36035C673959}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

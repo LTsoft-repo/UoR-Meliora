@@ -1,6 +1,6 @@
-﻿using Counter.Numbers;
+﻿using NumberUtils.Numbers;
 
-namespace CounterTest.Numbers;
+namespace NumberUtilsTest.Numbers;
 
 public class MultipleCheckerTest
 {

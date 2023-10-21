@@ -1,6 +1,6 @@
-﻿using Counter.TextProviders;
+﻿using NumberUtils.TextProviders;
 
-namespace CounterTest.TextProviders;
+namespace NumberUtilsTest.TextProviders;
 
 public class TextProviderTest
 {

@@ -1,6 +1,6 @@
-﻿using Counter.TextProviders;
+﻿using NumberUtils.TextProviders;
 
-namespace Counter.Numbers;
+namespace NumberUtils.Numbers;
 
 public class MelioraNumbersProvider : INumbersProvider<string>
 {
