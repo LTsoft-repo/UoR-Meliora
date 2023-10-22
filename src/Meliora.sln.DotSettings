@@ -1,13 +1,10 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	
-	
-	
 	<s:Boolean x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=CEC224932C4E7C439EFE161F3496CE15/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=CEC224932C4E7C439EFE161F3496CE15/AbsolutePath/@EntryValue">C:\Repositories\UoR\UoR-Meliora\src\CodeStyle\Sample.sln.DotSettings</s:String>
 	<s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=CEC224932C4E7C439EFE161F3496CE15/RelativePath/@EntryValue">..\CodeStyle\Sample.sln.DotSettings</s:String>
-	
-	
-	
 	<s:Boolean x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=FileCEC224932C4E7C439EFE161F3496CE15/@KeyIndexDefined">True</s:Boolean>
 	<s:Double x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=FileCEC224932C4E7C439EFE161F3496CE15/RelativePriority/@EntryValue">2</s:Double>
-	<s:Boolean x:Key="/Default/UserDictionary/Words/=Meliora/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=appsettings/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Autofac/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Meliora/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Serilog/@EntryIndexedValue">True</s:Boolean>
+</wpf:ResourceDictionary>
